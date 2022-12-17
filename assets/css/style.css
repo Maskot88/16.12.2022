@@ -54,10 +54,11 @@ ul{
     border-top: 1px solid rgb(0, 52, 52);
 }
 
-.second-sublist{
+.second-subitem{
     display: none;
-    position: absolute;
-    left: 70%;
+    position: relative;
+    top: 0%;
+    left: 100%;
 }
 .second-subitem{
     display: block;
@@ -68,6 +69,6 @@ ul{
     padding: 0.5em 1em;
     font-size: 1rem;
 }
-.main-navigate__item:hover>.second-subitem{
-    display: block;
+.second-sublist{
+    top: -2%;
 }
